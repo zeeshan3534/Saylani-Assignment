@@ -1,12 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    background: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuolaWpvomlt_tL9Iv_5AZGnOGzWyUpmMwsA&usqp=CAU";
+    color: cornsilk;
+}
+body{
+    background-image: linear-gradient(rgba(34, 34, 233, 0.356),rgba(26, 26, 236, 0.479)), url(https://wallpaperaccess.com/full/2003786.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background-color: #8a2be2;
+    background-blend-mode: screen; */
+}
 .center {
     margin: auto;
     width: 50%;
     border: 3px solid white;
     padding: 10px;
-    background-color: rgba(8, 8, 221, 0.705);
+    background-color: rgba(15,15  , 15, 0.582);
   }
-h1,h4{
+.hd{
     text-align: center;
+    color: cornsilk;
+}
+.in{
+    padding-top: 1%;
+    padding-bottom: 1%;
+   ;
 }
 .button {
     background-color: #4CAF50; /* Green */
@@ -22,3 +42,8 @@ h1,h4{
   textarea{
       width: 100%;
   }
+.drops{
+    width: 95%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
