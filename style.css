@@ -1,0 +1,24 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    background-color: rgba(8, 8, 221, 0.705);
+  }
+h1,h4{
+    text-align: center;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%     ;
+  }
+  textarea{
+      width: 100%;
+  }
